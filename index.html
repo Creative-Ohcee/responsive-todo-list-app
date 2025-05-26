@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do List</title>
+  <link rel="icon" type="image/x-icon" href="./Icons/favicon.ico">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <h1>To-Do List <img src="./Icons/favicon.ico" alt="logo" width="10%" ></h1>
+      <button id="toggleInput">+</button>
+    </header>
+    <div id="inputContainer" class="hidden">
+      <input type="text" id="taskInput" placeholder="Add new task..." />
+      <button id="addTaskBtn">Add Task</button>
+    </div>
+    <div class="info-bar">
+      <span id="dateDisplay"></span>
+      <span id="taskCount">0 tasks</span>
+    </div>
+    <ul id="taskList"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
